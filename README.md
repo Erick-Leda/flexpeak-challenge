@@ -11,7 +11,7 @@
     
 Construído com as tecnologias Laravel, PHP 7.4.5, MySQL, Nodejs e o TailWindCss . O Laravel é um framework de aplicação web com sintaxe expressiva e elegante. Tira a dor do desenvolvimento, facilitando tarefas comuns usadas em muitos projetos da web. Laravel é acessível, poderoso e fornece ferramentas necessárias para aplicativos grandes e robustos.
 
-## Config
+## Configurações
     
     Tecnologias necessarias:
     * Composer
@@ -22,7 +22,7 @@ Construído com as tecnologias Laravel, PHP 7.4.5, MySQL, Nodejs e o TailWindCss
     * Nodejs
     * NPM
 
-## Run Project
+## Rodar Project
     
     Você deve ter como pré-requisito um database criado, com o nome 'projetoflexpeak'.
      create database projetoflexpeak;
@@ -42,10 +42,10 @@ Construído com as tecnologias Laravel, PHP 7.4.5, MySQL, Nodejs e o TailWindCss
     * Dentro do diretório do projeto executar:
     #Run npm install && npm run watch
     
-    # Create file .env
+    # Criar file .env
      copy .env.example .env
 
-    !IMPORTANT -> Modify .env with your credencials database
+    !IMPORTANT -> Modifique .env com as seguintes credenciais:
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
@@ -53,7 +53,7 @@ Construído com as tecnologias Laravel, PHP 7.4.5, MySQL, Nodejs e o TailWindCss
     DB_USERNAME=<your_user_name>
     DB_PASSWORD=<your_password>
     
-    # Generate key
+    # Gere a chave
     php artisan key:generate
     
     * Run migrations (tables)
