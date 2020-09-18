@@ -19,6 +19,7 @@ Construído com as tecnologias Laravel, PHP 7.4.5, MySQL. O Laravel é um framew
     * MySQL
     * PHP 7.4.5
     * Tailwindcss
+    * Nodejs
 
 ## Run Project
     
