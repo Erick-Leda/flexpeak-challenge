@@ -56,7 +56,7 @@ Construído com as tecnologias Laravel, PHP 7.4.5, MySQL, Nodejs e o TailWindCss
     # Gere a chave
     php artisan key:generate
     
-    * Run migrations (tables)
+    * Execute migrations (tables)
     php artisan migrate
     
     * Dentro do diretório do projeto executar:
