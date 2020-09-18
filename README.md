@@ -15,34 +15,35 @@ Construído com as tecnologias Laravel, PHP 7.4.5, MySQL, Nodejs e o TailWindCss
     
     Tecnologias necessarias:
     * Composer
-    * Laravel 8
+    * Laravel 
     * MySQL
-    * PHP 7.4.5
+    * PHP
     * TailWindcss
     * Nodejs
     * NPM
 
 ## Run Project
     
-    Voce deve ter como pré-requisito um database criado, com o nome 'projetoflexpeak'.
-    $ create database projetoflexpeak;
+    Você deve ter como pré-requisito um database criado, com o nome 'projetoflexpeak'.
+     create database projetoflexpeak;
     
     * Clone ou baixe este repositório e acesse o diretório:
-    $ git clone https://github.com/Erick-Leda/flexpeak-challenge
+     git clone https://github.com/Erick-Leda/flexpeak-challenge
     
     * Instale as dependências (More information -> https://getcomposer.org/download/)
-    composer install
+     composer install
     
     * Instale os presets do framework de css TailWindCSS (More information -> https://tailwindcss.com/docs/installation)
-    composer require laravel-frontend-presets/tailwindcss --dev
+     composer require laravel-frontend-presets/tailwindcss --dev
     
     * Instale a interface do TailWindCSS e adicione o sistema de autenticação
-    php artisan ui tailwindcss --auth
+     php artisan ui tailwindcss --auth
     
+    * Dentro do diretório do projeto executar:
     #Run npm install && npm run watch
     
     # Create file .env
-    cp .env.example .env
+     copy .env.example .env
 
     !IMPORTANT -> Modify .env with your credencials database
     DB_CONNECTION=mysql
