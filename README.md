@@ -9,16 +9,16 @@
 
 ## Sobre
     
-Construído com as tecnologias Laravel, PHP 7.4.5, MySQL. O Laravel é um framework de aplicação web com sintaxe expressiva e elegante. Tira a dor do desenvolvimento, facilitando tarefas comuns usadas em muitos projetos da web. Laravel é acessível, poderoso e fornece ferramentas necessárias para aplicativos grandes e robustos.
+Construído com as tecnologias Laravel, PHP 7.4.5, MySQL, Nodejs e o TailWindCss . O Laravel é um framework de aplicação web com sintaxe expressiva e elegante. Tira a dor do desenvolvimento, facilitando tarefas comuns usadas em muitos projetos da web. Laravel é acessível, poderoso e fornece ferramentas necessárias para aplicativos grandes e robustos.
 
 ## Config
     
     Tecnologias necessarias:
     * Composer
-    * Laravel
+    * Laravel 8
     * MySQL
     * PHP 7.4.5
-    * Tailwindcss
+    * TailWindcss
     * Nodejs
 
 ## Run Project
