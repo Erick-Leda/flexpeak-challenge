@@ -20,6 +20,7 @@ Construído com as tecnologias Laravel, PHP 7.4.5, MySQL, Nodejs e o TailWindCss
     * PHP 7.4.5
     * TailWindcss
     * Nodejs
+    * NPM
 
 ## Run Project
     
