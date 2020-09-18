@@ -18,6 +18,7 @@ Construído com as tecnologias Laravel, PHP 7.4.5, MySQL. O Laravel é um framew
     * Laravel
     * MySQL
     * PHP 7.4.5
+    * Tailwindcss
 
 ## Run Project
     
@@ -29,6 +30,14 @@ Construído com as tecnologias Laravel, PHP 7.4.5, MySQL. O Laravel é um framew
     
     * Instale as dependências (More information -> https://getcomposer.org/download/)
     composer install
+    
+    * Instale os presets do framework de css TailWindCSS (More information -> https://tailwindcss.com/docs/installation)
+    composer require laravel-frontend-presets/tailwindcss --dev
+    
+    * Instale a interface do TailWindCSS e adicione o sistema de autenticação
+    php artisan ui tailwindcss --auth
+    
+    #Run npm install && npm run watch
     
     # Create file .env
     cp .env.example .env
@@ -44,8 +53,6 @@ Construído com as tecnologias Laravel, PHP 7.4.5, MySQL. O Laravel é um framew
     # Generate key
     php artisan key:generate
     
-    #Run npm install
-
     * Run migrations (tables)
     php artisan migrate
     
