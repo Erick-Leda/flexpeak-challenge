@@ -17,3 +17,9 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+Route::get('/projeto/visualizar', [\App\Http\Controllers\ApiProjectController::class, 'viewAllProjects']);
+Route::get('/projeto/visualizar/{id}', [\App\Http\Controllers\ApiProjectController::class, 'viewProj']);
+//Route::post('/projeto/adicionar', [\App\Http\Controllers\ApiProjectController::class, 'addProj']);
+// ==============================================
