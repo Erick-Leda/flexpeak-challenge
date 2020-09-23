@@ -4,6 +4,8 @@
     </div>
 </div>
 
+
+
 <form class="w-full max-w-lg" method="POST" action="{{ $route }}">
     @csrf
     @isset($update)
@@ -16,11 +18,11 @@
             </label>
             <input name="name" value="{{ old("name") ?? $project->name }}" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="name" type="text">
             <p class="text-gray-600 text-xs italic">{{ __("Nome do Projeto") }}</p>
-            @error("name")
-                <div class="border border-red-400 rounded-b bg-red-100 mt-1 px-4 py-3 text-red-700">
-                    {{ $message }}
-                </div>
-            @enderror
+            <p class="text-gray-600 text-xs italic">{{ __("Preencha o nome | Mínimo de 5 caracteres | Máximo de 140 caracteres") }}</p>
+            @if (session('error'))
+                <div class="border bt-red-600 border-t-4 border-red-600 rounded-b text-red-700 px-4 py-3">{{ session('error') }}</div>
+            @endif
+
         </div>
     </div>
 
@@ -31,11 +33,7 @@
             </label>
             <textarea name="description" class="no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none" id="description">{{ old("description") ?? $project->description }}</textarea>
             <p class="text-gray-600 text-xs italic">{{ __("Do que se trata o projeto ?") }}</p>
-                @error("description")
-                <div class="border border-red-400 rounded-b bg-red-100 mt-1 px-4 py-3 text-red-700">
-                    {{ $message }}
-                </div>
-            @enderror
+
         </div>
     </div>
     <div class="md:flex md:items-center">

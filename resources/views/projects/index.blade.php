@@ -9,7 +9,6 @@
             </a>
         </div>
     </div>
-
     <table class="border-separate border-2 text-center border-blue-500 mt-3" style="width: 100%">
         <thead>
         <tr>

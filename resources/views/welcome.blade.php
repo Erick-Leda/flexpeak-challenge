@@ -15,7 +15,6 @@
 </head>
 <body class="bg-purple-200 h-screen antialiased leading-none font-sans">
 <div class="flex flex-col">
-
     <div class="min-h-screen flex items-center justify-center">
         <div class="flex flex-col justify-around h-full">
             <div>
@@ -31,7 +30,7 @@
                                 @else
                                     <a href="{{ route('login') }}" class="no-underline hover:underline text-sm font-normal text-teal-800 uppercase">{{ __('Login') }}</a>
                                     @if (Route::has('register'))
-                                        <a href="{{ route('register') }}" class="no-underline hover:underline text-sm font-normal text-teal-800 uppercase">{{ __('Register') }}</a>
+                                        <a href="{{ route('register') }}" class="no-underline hover:underline text-sm font-normal text-teal-800 uppercase">{{ __('Registrar') }}</a>
                                     @endif
                                 @endauth
                             </div>
