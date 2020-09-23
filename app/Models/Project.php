@@ -9,7 +9,7 @@ class Project extends Model
 {
     use HasFactory;
 
-    protected $fillable = ["name", "description"];
+    protected $fillable = ["name", "description", "user_id"];
 
     protected static function boot() {
         parent::boot();
@@ -23,5 +23,6 @@ class Project extends Model
     public function user () {
         return $this->belongsTo(User::class);
     }
+
 
 }
